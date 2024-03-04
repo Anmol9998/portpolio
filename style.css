@@ -1,18 +1,15 @@
-/* Reset default browser styles */
 * {
     margin: 0;
     padding: 0;
     font-family:sans-serif;
  }
- 
- /* Styles for header section */
+
  .header {
     width: 100%;
     height: 100vh;
-    background-color: lightblue;
+    background-color: rgb(95, 45, 151);
  }
  
- /* Styles for navigation bar */
  nav {
     display: flex;
     margin: auto;
@@ -67,8 +64,7 @@
     background-color: white;
     color: black;
  }
- 
- /* Styles for body section */
+
  .body {
     margin-left: 100px;
     margin-top: 100px;
@@ -80,10 +76,6 @@
     margin-bottom: 20px;
  }
  
- .demo1 {
-    color: orange;
-    margin-bottom: 30px;
- }
    
  .demo2 {
     color: black;
@@ -91,7 +83,7 @@
  }
  
  .button-lrn, .button-hire{
-    background: lightsalmon;
+    background: rgb(18, 167, 30);
     padding: 10px 12px;
     text-decoration: none;
     font-weight: bold;
@@ -106,7 +98,7 @@
  }
  
  .button-lrn:hover {
-    background-color: whitesmoke;
+    background-color: rgb(211, 250, 35);
     color: black;
  }
  
@@ -117,24 +109,20 @@
  .button-hire:hover {
     background-color: rgb(146, 172, 33);
  }
- 
+ .icon .fa-brand{
+   color: aliceblue;
+   font-size: 1.7rem;
+ }
+ .icon{
+   color: #fff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 3rem;
+ }
  span {
-    color: seagreen;
+    color: rgb(46, 139, 46);
  }
  
- /* Styles for image section */
- .image {
-    width: 45%;
-    height: 100%;
-    position: absolute;
-    bottom: 0;
-    right: 100px;
- }
  
- .image img {
-    height: 100%;
-    position:absolute;
-    left: 50%;
-    bottom: 10%;
-    transform: translate(-60%);
- }
+ 
